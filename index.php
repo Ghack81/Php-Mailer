@@ -1,6 +1,5 @@
 <?php 
 include_once './models/env.php';
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
