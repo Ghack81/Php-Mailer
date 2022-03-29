@@ -1,12 +1,8 @@
 <?php
 
 /*
-|--------------------------------------------------------------------------
-| Json & Error Response Code init
-|--------------------------------------------------------------------------
-|
-| Defined contants for Json & Error response code
-|
+Json & Error Response Code init
+Defined contants for Json & Error response code
 */
 
 function initErrorResponse() {
@@ -16,12 +12,8 @@ function initErrorResponse() {
 }
 
 /*
-|--------------------------------------------------------------------------
-| Email Templates Headings init
-|--------------------------------------------------------------------------
-|
-| Defined contants for email heading
-|
+ Email Templates Headings init
+ Defined contants for email heading
 */
 
 function initEmailHeadings() {
@@ -30,12 +22,8 @@ function initEmailHeadings() {
 }
 
 /*
-|--------------------------------------------------------------------------
-| IIFE
-|--------------------------------------------------------------------------
-|
-| Imediately invoked function (Start now)
-|
+IIFE
+Imediately invoked function (Start now)
 */
 
 call_user_func(function () {
@@ -44,12 +32,11 @@ call_user_func(function () {
 });
 
 /*
-|--------------------------------------------------------------------------
-| AJAX Call
-|--------------------------------------------------------------------------
-|
-| Imediately invoked function
-|
+
+AJAX Call
+
+Imediately invoked function
+
 */
 
 
