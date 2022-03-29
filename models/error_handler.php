@@ -1,12 +1,8 @@
 <?php
 
 /*
-|--------------------------------------------------------------------------
-| General Error Response - Error Pass Into Arrays
-|--------------------------------------------------------------------------
-|
-| Custom functions for error response handlers
-|
+General Error Response - Error Pass Into Arrays
+ Custom functions for error response handlers
 */
 
 function checkError(&$array,$variable,$message){  
