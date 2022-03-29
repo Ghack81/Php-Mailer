@@ -12,12 +12,12 @@ function sendMail($subject,$message,$to){
     $mail->CharSet = 'UTF-8';
 
     $mail->SMTPAuth = true;
-    $mail->Username = 'demo@tekhdev.com';
+    $mail->Username = 'demo@domain.com';
     $mail->Password = 'demo123@';
-    $mail->Host = 'tekhdev.com'; //Server Host
+    $mail->Host = 'domain.com'; //Server Host
 
-    $mail->From = 'demo@tekhdev.com';
-    $mail->FromName = 'Tekh Devopers';
+    $mail->From = 'demo@domain.com';
+    $mail->FromName = 'Eric Devopers';
     $mail->Subject = $subject;
 
     $mail->isHTML();
